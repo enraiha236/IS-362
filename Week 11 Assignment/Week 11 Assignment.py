@@ -17,5 +17,5 @@ def get_nyt_bestsellers(api_key, list_name="hardcover-fiction"):
 api_key = "gxizjT2nY7Awh1vXvXeJonKkVXyjAokH"
 df = get_nyt_bestsellers(api_key)
 
-print(f"Found {len(df)} bestsellers")
+print(f"Found {len(df)} Hardcover Fiction Bestsellers")
 print(df[['rank', 'title', 'author', 'weeks_on_list']])
